@@ -31,7 +31,11 @@ jobs:
 
       - name: Build with Next.js 🏗️
         run: npx next build
-
+        
+      - name: Sleep for 5 sec
+        run: sleep 5s
+        shell: bash
+        
       - name: Upload artifact 📡
         run: ls
         # uses: actions/upload-pages-artifact@v3
