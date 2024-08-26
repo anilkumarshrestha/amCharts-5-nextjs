@@ -33,6 +33,7 @@ jobs:
         run: npx next build
 
       - name: Upload artifact 📡
+        run: ls -al ./out
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
