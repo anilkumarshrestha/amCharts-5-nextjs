@@ -96,7 +96,7 @@ export default function MapWithClusteredPoints() {
       );
 
       container.events.on("click", function (e) {
-        pointSeries.zoomToCluster(e.target.dataItem);
+        pointSeries.zoomToCluster(e.target.dataItem!);
       });
 
       return am5.Bullet.new(root, {
