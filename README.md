@@ -1,4 +1,4 @@
-# 🌍 Map with Clustered Points using amCharts 5 and Next.js
+# 🌍 Using amCharts 5 and Next.js
 
 This project demonstrates how to create an interactive map with clustered points using **amCharts 5** in a **Next.js** environment. The map showcases cities across the globe with clustering applied to handle dense areas, providing a clean and interactive experience.
 
