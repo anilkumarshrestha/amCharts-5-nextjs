@@ -37,10 +37,10 @@ jobs:
         shell: bash
         
       - name: Upload artifact 📡
-        run: ls
-        # uses: actions/upload-pages-artifact@v3
-        # with:
-          # path: ./out
+        # run: ls
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
 
   deploy:
     environment:
